@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
         context: context,
         builder: (BuildContext context) => TextDialog(
             content:
-            'This timeslot has been taken. Please choose another one' * 10,
+            'This timeslot has been taken. Please choose another one' * 50,
             ),
     );
   }
